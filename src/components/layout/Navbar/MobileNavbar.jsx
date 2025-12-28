@@ -306,43 +306,36 @@ const MobileNavbar = () => {
         {/* Header */}
         <header className='border-b border-gray-200'>
           <nav
-            className={`navbar flex items-center justify-between px-4 py-3 ${
-              scrolled ? "!py-3" : "!py-5"
+            className={`navbar flex items-center !justify-between px-4 w-full ${
+              scrolled ? "py-3" : "py-5"
             }`}
           >
-            <div className='w-[97%] flex justify-between items-center max-w-full'>
-              <div className={`max-w-fit ${scrolled ? "" : ""}`}>
-                <Link href='/' className='transition-all !max-w-fit'>
-                  <Image
-                    src='/images/logo/wandawhitelogo.png'
-                    height={200}
-                    width={270}
-                    alt='W and A Legal Associates'
-                    className='max-h-[40px] w-max object-contain transition-all duration-300'
-                  />
-                </Link>
-              </div>
+            {/* LEFT: Logo */}
+            <Link href='/' className='flex-shrink-0'>
+              <Image
+                src='/images/logo/wandawhitelogo.png'
+                height={220}
+                width={220}
+                alt='W and A Legal Associates'
+                className='max-h-[40px] w-auto object-contain'
+                priority
+              />
+            </Link>
 
-              {/* Mobile menu button */}
-              <motion.button
-                onClick={toggleMenu}
-                className='p-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200'
-                aria-label='Toggle menu'
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <motion.div
-                  animate={{ rotate: isOpen ? 180 : 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  {isOpen ? (
-                    <X className='w-6 h-6 relative z-[99]' />
-                  ) : (
-                    <Menu className='w-6 h-6' />
-                  )}
-                </motion.div>
-              </motion.button>
-            </div>
+            {/* RIGHT: Menu Button */}
+            <motion.button
+              onClick={toggleMenu}
+              className='p-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500'
+              aria-label='Toggle menu'
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {isOpen ? (
+                <X className='w-6 h-6' />
+              ) : (
+                <Menu className='w-6 h-6' />
+              )}
+            </motion.button>
           </nav>
         </header>
 
