@@ -113,10 +113,10 @@ const Navbar = () => {
           >
             <Link href='/' className='transition-all'>
               <Image
-                src='https://res.cloudinary.com/dmrtnrmvv/image/upload/v1751748162/horizontallogo_842833_nsjv0u.png'
+                src='/images/logo/wandawhitelogo.png'
                 height={120}
                 width={270}
-                alt='Winshine Logo'
+                alt='W and A Legal Associates'
                 className='max-w-[80%] ml-1 md:ml-0 lg:max-w-[220px] xl:max-w-[270px]'
               />
             </Link>

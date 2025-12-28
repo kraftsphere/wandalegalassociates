@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar/Navbar";
 import Footer from "@/components/layout/Footer/Footer";
 import SmoothScroll from "@/components/ui/lenis/smoothScroll";
 import MobileNavbar from "@/components/layout/Navbar/MobileNavbar";
+import LaunchOverlay from "@/components/Launch/LaunchOverlay";
 
 // Load fonts
 const dmSans = DM_Sans({
@@ -87,6 +88,7 @@ export default function Layout({ children }) {
   return (
     <html lang='en'>
       <body className={`${dmSans.variable} antialiased`}>
+        <LaunchOverlay />
         <SmoothScroll />
         <Navbar />
         <MobileNavbar />

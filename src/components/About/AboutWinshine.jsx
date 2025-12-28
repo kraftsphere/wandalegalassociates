@@ -9,14 +9,14 @@ const AboutWinshine = () => {
         <div className='absolute w-auto  h-full top-0 right-0'>
           <img
             src='/images/Modern-pattern.svg'
-            alt='About Winshine Financial Services'
+            alt='About W and A Legal Associates'
             className='md:opacity-40 opacity-0 w-full -z-1 h-full'
           />
         </div>
         <div className='absolute w-auto  h-full top-0 left-0'>
           <img
             src='/images/Modern-pattern.svg'
-            alt='About Winshine Financial Services'
+            alt='About W and A Legal Associates'
             className='md:opacity-40 opacity-0 w-full -z-1 h-full rotate-180'
           />
         </div>

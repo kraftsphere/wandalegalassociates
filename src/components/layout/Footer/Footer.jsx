@@ -29,27 +29,27 @@ const Footer = () => {
         {/* ================= ROW 1 ================= */}
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
           {/* Column 1 - Logo */}
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col items-start gap-4'>
             <Image
-              src='https://res.cloudinary.com/dmrtnrmvv/image/upload/v1751801766/Untitled_design_1_-Photoroom_ll3q9k.png'
+              src='/images/logo/wandablack-bg.png'
               width={200}
               height={70}
               alt='W and A Legal Associates'
-              className='object-contain max-h-[70px]'
+              className='object-contain max-h-[100px] h-full w-auto ml-0'
             />
 
-            <div className='flex gap-4 mt-2'>
+            <div className='flex  gap-4 mt-2  '>
               <Link
                 href='https://www.instagram.com/wandalegalassociates'
                 target='_blank'
               >
-                <FaInstagram size={18} />
+                <FaInstagram size={22} />
               </Link>
               <Link
                 href='https://www.facebook.com/share/16jkCaTDkj/?mibextid=wwXIfr'
                 target='_blank'
               >
-                <FaFacebookF size={18} />
+                <FaFacebookF size={22} />
               </Link>
             </div>
           </div>

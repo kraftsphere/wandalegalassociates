@@ -131,10 +131,10 @@ const Navbar = () => {
           <div className={`logo pl-4 ${scrolled ? "logo-small" : ""}`}>
             <Link href='/'>
               <Image
-                src='https://res.cloudinary.com/ddo593vrk/image/upload/v1766850918/a_xmxqz2.png'
+                src='/images/logo/wandawhitelogo.png'
                 height={100}
                 width={270}
-                alt='Winshine Logo'
+                alt='W and A Legal Associates'
                 className='max-w-[80%] ml-1 md:ml-0 lg:max-w-[160px] xl:max-w-[170px]'
               />
             </Link>

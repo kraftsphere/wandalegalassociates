@@ -183,3 +183,16 @@ body {
   background-position: right center; /* change the direction of the change here */
   text-decoration: none;
 }
+
+.siteReveal {
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

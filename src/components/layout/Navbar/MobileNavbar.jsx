@@ -314,10 +314,10 @@ const MobileNavbar = () => {
               <div className={`max-w-fit ${scrolled ? "" : ""}`}>
                 <Link href='/' className='transition-all !max-w-fit'>
                   <Image
-                    src='https://res.cloudinary.com/dmrtnrmvv/image/upload/v1751748162/horizontallogo_842833_nsjv0u.png'
+                    src='/images/logo/wandawhitelogo.png'
                     height={200}
                     width={270}
-                    alt='Winshine Logo'
+                    alt='W and A Legal Associates'
                     className='max-h-[40px] w-max object-contain transition-all duration-300'
                   />
                 </Link>
