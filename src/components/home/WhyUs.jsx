@@ -92,10 +92,7 @@ const WhyUs = () => {
 
           {/* Image Section */}
           <div className='w-full lg:w-1/2 rounded-2xl lg:rounded-tr-[100px] rounded-tr-[50px] lg:mt-10 xl:mt-0 overflow-hidden'>
-            <img
-              src='https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg'
-              alt='Why Us'
-            />
+            <img src='/images/home/why-w-and-a.jpeg' alt='Why Us' />
           </div>
         </div>
       </div>

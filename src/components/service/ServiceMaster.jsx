@@ -16,8 +16,7 @@ export const legalServices = [
       "Summary suits",
       "Commercial litigation",
     ],
-    image:
-      "https://img.freepik.com/free-photo/couple-discussing-family-breakup_23-2148548570.jpg",
+    image: "/images/wservices/civilcommercial.avif",
   },
 
   {
@@ -46,7 +45,7 @@ export const legalServices = [
       "Sale and purchase advisory",
       "Registration assistance",
     ],
-    image: "https://images.pexels.com/photos/4344114/pexels-photo-4344114.jpeg",
+    image: "/images/wservices/propertyconsultationtitledue.jpeg",
   },
 
   {
@@ -75,8 +74,7 @@ export const legalServices = [
       "Affidavits",
       "Power of Attorney",
     ],
-    image:
-      "https://img.freepik.com/free-photo/successful-business-man-signing-documents-modern-office_158595-5382.jpg",
+    image: "/images/wservices/legaldocumentation.avif",
   },
 
   {
@@ -91,8 +89,7 @@ export const legalServices = [
       "Quashing proceedings",
       "Economic and white-collar offences",
     ],
-    image:
-      "https://img.freepik.com/free-photo/top-view-hand-opening-book-with-copy-space_23-2148230095.jpg",
+    image: "/images/wservices/criminallaw.avif",
   },
 
   {
@@ -119,8 +116,7 @@ export const legalServices = [
       "Domestic violence cases",
       "Child custody matters",
     ],
-    image:
-      "https://img.freepik.com/free-photo/adult-male-taking-wedding-ring-off_23-2148548567.jpg",
+    image: "/images/wservices/familymatrimonial.avif",
   },
 
   {
@@ -147,7 +143,7 @@ export const legalServices = [
       "Letters of administration",
       "Trust formation",
     ],
-    image: "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg",
+    image: "/images/wservices/testamentaryestateplanning.jpeg",
   },
 
   {
@@ -161,8 +157,7 @@ export const legalServices = [
       "Charity Commissioner matters",
       "NGO compliance",
     ],
-    image:
-      "https://img.freepik.com/free-photo/man-making-his-move_53876-64862.jpg",
+    image: "/images/wservices/trustssocietieswakf.avif",
   },
 
   {
@@ -217,7 +212,7 @@ export const legalServices = [
       "Property card issues",
       "RTI matters",
     ],
-    image: "https://images.pexels.com/photos/7876051/pexels-photo-7876051.jpeg",
+    image: "/images/wservices/governmentrevenueauthorities.jpeg",
   },
 ];
 

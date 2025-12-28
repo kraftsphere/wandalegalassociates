@@ -79,7 +79,7 @@ const CardStacking = () => {
         {/* CARD ONE - Left to Right Gradient */}
 
         <div
-          className="card__div one lg:mb-20 mb-10 md:grid grid-cols-3 gap-6 px-6 py-6 relative bg-cover bg-left bg-[url('https://t3.ftcdn.net/jpg/04/45/40/12/360_F_445401212_PEDNESWvENUbesA25i8E42auVqffefxY.jpg')] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-[#18293ce0] before:to-[#000000be]  before:z-10 overflow-hidden w-full "
+          className="card__div one lg:mb-20 mb-10 md:grid grid-cols-3 gap-6 px-6 py-6 relative bg-cover bg-left bg-[url('/images/home/w-bg.jpg')] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-[#18293ce0] before:to-[#000000be]  before:z-10 overflow-hidden w-full "
           ref={(el) => (PanelRef.current[0] = el)}
         >
           {/* Text Content */}
@@ -105,7 +105,7 @@ const CardStacking = () => {
         {/* CARD TWO - Right to Left Gradient */}
 
         <div
-          className="card__div two md:grid lg:mb-20 mb-10 grid-cols-3 gap-6 px-6 py-6 relative bg-cover md:bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo6ZG3jaV2OrB-jn_jDWuou0rLf-ExBmVya1lE1r93eOppKV4xJXc3nE-WDoPwgP4ESLo&usqp=CAU')] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-l before:from-[#862a35cf]  before:to-[#000000a9]  before:z-10 overflow-hidden before:rotate-180 md:before:rotate-0 flex flex-col"
+          className="card__div two md:grid lg:mb-20 mb-10 grid-cols-3 gap-6 px-6 py-6 relative bg-cover md:bg-center bg-[url('/images/home/as-bg.jpg')] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-l before:from-[#862a35cf]  before:to-[#000000a9]  before:z-10 overflow-hidden before:rotate-180 md:before:rotate-0 flex flex-col"
           ref={(el) => (PanelRef.current[1] = el)}
         >
           {/* Image on Right */}
@@ -136,7 +136,7 @@ const CardStacking = () => {
         {/* CARD Three - Left to Right Gradient */}
 
         <div
-          className="card__div one lg:mb-20 mb-10 md:grid grid-cols-3 gap-6 px-6 py-6 relative bg-cover bg-left bg-[url('https://images.pexels.com/photos/6077297/pexels-photo-6077297.jpeg')] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-[#18293cee] before:to-[#000000b6]  before:z-10 overflow-hidden flex flex-col-reverse"
+          className="card__div one lg:mb-20 mb-10 md:grid grid-cols-3 gap-6 px-6 py-6 relative bg-cover bg-left bg-[url('/images/home/an-bg.jpeg')] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-[#18293cee] before:to-[#000000b6]  before:z-10 overflow-hidden flex flex-col-reverse"
           ref={(el) => (PanelRef.current[2] = el)}
         >
           {/* Text Content */}

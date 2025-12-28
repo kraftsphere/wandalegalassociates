@@ -26,14 +26,14 @@ function ClientPrivileges() {
             <div className='relative lg:w-1/2 w-full flex gap-[4%]'>
               <div className='w-[48%] rounded-lg overflow-hidden shadow-md md:h-[400px] mt-6 md:mt-8'>
                 <img
-                  src='https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg'
+                  src='/images/home/homeabout1.jpeg'
                   alt='Legal Services'
                   className='w-full h-full object-cover'
                 />
               </div>
               <div className='w-[48%] rounded-lg overflow-hidden shadow-md block md:h-[400px] mb-6'>
                 <img
-                  src='https://images.pexels.com/photos/8731041/pexels-photo-8731041.jpeg'
+                  src='/images/home/homeabout2.jpeg'
                   alt='Law Consultation'
                   className='w-full h-full object-cover'
                 />
