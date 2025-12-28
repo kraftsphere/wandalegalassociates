@@ -1,0 +1,132 @@
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .navbar-wrapper.scrolled-up {
+    transform: translateY(-0px); /* Move up by marquee height */
+  }
+
+  .marquee {
+    background-image: linear-gradient(to right, #ff0000, #e73a02);
+    font-size: 15px;
+    padding: 6px 0;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 25s linear infinite;
+  }
+
+  .marquee-content {
+    display: flex;
+    gap: 50px;
+  }
+
+  .marquee-content p {
+    white-space: nowrap;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .navbar {
+    background-color: #ffffff ;
+    // padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    transition: padding 0.3s ease;
+  }
+
+//   .navbar-content {
+//     width: 97%;
+//     max-width: 1400px;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//     position: relative;
+//     padding-left: 90px; /* Give space for absolute logo */
+//   }
+
+  .logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+    transform: translateY(-50%) scale(1.2);
+  }
+
+  .logo-small {
+    transform: translateY(-50%) scale(1);
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+  }
+
+  .nav-links a {
+    color: #747474;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .nav-links a:hover {
+    color: #ff9900;
+  }
+
+  .logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+  }
+
+  // .logo-small {
+  //   font-size: 1.5rem;
+  //   transform: scale(0.9);
+  // }
+
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #cc7a00;
+  }
+
+  /* Push page content down to avoid being hidden */
+  body {
+    margin: 0;
+  }
+
+.navbar-dropdown-shadow {
+ box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}

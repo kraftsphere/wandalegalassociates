@@ -1,0 +1,10 @@
+
+.slick-dots li {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+.slick-dots li.slick-active div{
+    opacity: 1;
+    scale: 1.2;
+}

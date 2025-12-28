@@ -1,0 +1,30 @@
+.video-wrapper {
+  position: relative;
+  width: 100vw; /* Full width */
+  height: calc(100vh - 64px); /* Full height minus navbar height */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .video-wrapper {
+    height: auto; /* Full height minus navbar height */
+  }
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  @media screen and (max-width: 768px) {
+    & {
+      object-fit: contain;
+    }
+  }
+}
+
+.video-wrapper .absolute {
+  z-index: 1; /* Ensure controls are on top of the video */
+}

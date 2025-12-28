@@ -1,0 +1,30 @@
+#temples .slick-dots li.slick-active div {
+  opacity: 1 !important;
+  transform: scale(1.2);
+}
+@media screen and (min-width: 761px) {
+  #temples .slick-dots {
+    bottom: -30px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #temples .slick-dots {
+    bottom: -60px !important;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  #temples .slick-dots {
+    justify-content: start !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  #temples .slick-dots {
+    bottom: -50px !important;
+    justify-content: center !important;
+    margin: auto !important;
+    max-width: fit-content !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}

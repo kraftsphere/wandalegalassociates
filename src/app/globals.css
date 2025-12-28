@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+}
+
+.cmn-gradient-bg {
+  @apply bg-gradient-to-tr from-[#e70b00] via-[#e73900];
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* font-family: var(--font-poppins), sans-serif; */
+  font-family: var(--font-exo2), sans-serif;
+  padding-top: 80px; /* Adjust depending on your marquee + navbar height */
+}
+
+.s_wrapper {
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  .s_wrapper {
+    padding: 30px 0px;
+  }
+}
+.btnCommon {
+  background: linear-gradient(to right, #e70b00, #e73900);
+  color: white;
+  padding: 0.5rem 1.5rem; /* py-2 px-6 */
+  border-radius: 0.75rem; /* rounded-xl */
+  font-weight: 600; /* font-semibold */
+  transition: all 0.3s ease; /* transition-all duration-300 */
+}
+
+.btnCommon:hover {
+  opacity: 0.9;
+}
+
+.vignette::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* // Reusable Gradient Button */
+.gradient-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-size: 200% auto;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px hsla(0, 0%, 0%, 0.08);
+  /* background-image: linear-gradient(90deg, #a91e22, #df582b 50%, #e73800); */
+  transition: 0.5s;
+  cursor: pointer;
+  width: max-content;
+  margin: 0 auto;
+}
+.gradient-button:hover {
+  background-position: right center;
+}
+.gradient-button-light {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-size: 200% auto;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-image: linear-gradient(45deg, #fff, #fff 50%, #858585);
+  /* background: #fff; */
+  transition: 0.5s;
+  cursor: pointer;
+  width: max-content;
+  margin: 0 auto;
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+/* .gradient-button-light:hover {
+  background-position: right center; */
+  /* color: #a91e22 !important; */
+  /* background-image: linear-gradient(90deg, #a91e22, #df582b 50%, #e73800); */
+/* } */
+.text-line {
+  background: linear-gradient(to right, #fff 50%, rgba(255, 255, 255, 0.2) 50%);
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: block;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.cmn-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+
+/* .bg-gradient{
+  background-image: linear-gradient(to right, #e70900 40%, #df582b 100%);
+} */
+
+.bg-gradient_2 {
+  background-image: linear-gradient(to right, #e92c25 40%, #db714e 100%);
+}
+
+.fake{
+  color: rgb(255, 255, 255);
+  background-color: #101435;
+}
+
+ /* .bg-gradient {
+  background-image: linear-gradient(
+    to right,
+    #232459 0%,
+    #00295e 100%
+  );
+}
+.gradient-button {
+  background-image: linear-gradient(
+    to right,
+    #232459 0%,
+    #016fff 100%,
+    #016fff 120%,
+    #232459 180%
+  );
+} */
+
+
+.gradient-button-rd {
+  background-image: linear-gradient(
+    45deg,
+    #ea58b9 0%,
+    #f0898c 30%,
+    #f5b463 60%
+  );
+}
+
+.gradient-text-rd {
+  background-image: linear-gradient(
+    45deg,
+    #ea58b9 0%,
+    #f0898c 30%,
+    #f5b463 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(
+    to right,
+    #071b01 0%,
+    #02490e 100%
+  );
+}
+.gradient-button {
+  background-image: linear-gradient(to right, #3a78b7 0%, #203041 100%, #203a55 120%, #10263d 180%);
+}
+.gradient-button ,
+.gradient-button-rd{
+  transition: 0.5s;
+  background-size: 200% auto;
+  display: block;
+}
+
+.gradient-button:hover,
+.gradient-button-rd:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+}

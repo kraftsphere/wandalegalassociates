@@ -1,0 +1,35 @@
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #d1d5db;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #6b7280;
+  opacity: 1;
+}
+
+/* Add some spacing for the arrows */
+.slick-slider {
+  margin: 0 20px;
+}
+
+/* Ensure cards have equal height */
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+
+.slick-slide > div {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}

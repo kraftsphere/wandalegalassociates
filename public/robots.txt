@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://winshine.in/sitemap.xml

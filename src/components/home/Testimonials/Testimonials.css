@@ -1,0 +1,30 @@
+#testimonials .slick-dots ul {
+  max-width: 80px !important;
+}
+#testimonials .slick-dots {
+  display: flex;
+  justify-content: center;
+}
+#testimonials .slick-dots li div {
+  color: #101435 !important;
+  opacity: 0.25 !important;
+}
+@media screen and (max-width: 620px) {
+  #testimonials .slick-dots {
+    bottom: -30px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #testimonials .slick-dots {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+#testimonials .slick-dots li.slick-active div {
+  color: #101435 !important;
+  opacity: 0.8 !important;
+  scale: 1.3 !important;
+}
