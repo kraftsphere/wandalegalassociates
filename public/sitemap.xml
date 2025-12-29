@@ -1,96 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
-  <url>
-    <loc>https://winshine.in/</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/about-us</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/services</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/investment/traditional-investment</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/investment/new-age-investment</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/insurance</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/calculator/sip-calculator</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/calculator/retirement-calculator</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/calculator/emi-calculator</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/business-opportunity/business-associate</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/business-opportunity/employer</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/business-opportunity/private-client</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/contact</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Optional: low priority pages -->
-  <url>
-    <loc>https://winshine.in/terms-and-conditions</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://winshine.in/privacy-policy</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.3</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.wandalegalassociates.in/</loc>
+<lastmod>2025-12-29T09:34:56.421Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://www.wandalegalassociates.in/about-us</loc>
+<lastmod>2025-12-29T09:34:56.421Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.wandalegalassociates.in/services</loc>
+<lastmod>2025-12-29T09:34:56.421Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.wandalegalassociates.in/contact</loc>
+<lastmod>2025-12-29T09:34:56.421Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.wandalegalassociates.in/privacy-policy</loc>
+<lastmod>2025-12-29T09:34:56.421Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://www.wandalegalassociates.in/terms-and-conditions</loc>
+<lastmod>2025-12-29T09:34:56.426Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
 </urlset>

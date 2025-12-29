@@ -15,6 +15,12 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
+// Viewport
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 // SEO Metadata
 export const metadata = {
   title:
@@ -52,7 +58,11 @@ export const metadata = {
   ],
 
   authors: [{ name: "W and A Legal Associates" }],
-  robots: "index, follow",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 
   openGraph: {
     title: "W and A Legal Associates | Full-Service Law Firm in Mumbai",
@@ -62,7 +72,7 @@ export const metadata = {
     siteName: "W and A Legal Associates",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://www.wandalegalassociates.in/ogimage.png",
         width: 1200,
         height: 630,
         alt: "W and A Legal Associates - Trusted Legal Expertise",
@@ -76,15 +86,20 @@ export const metadata = {
     title: "W and A Legal Associates | Trusted Legal Expertise Since 1997",
     description:
       "Mumbai-based full-service law firm delivering ethical and result-oriented legal solutions across diverse practice areas.",
-    images: ["/og-image.png"],
+    images: ["https://www.wandalegalassociates.in/ogimage.png"],
   },
 
   alternates: {
     canonical: "https://www.wandalegalassociates.in",
   },
+
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
-export default function Layout({ children }) {
+export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${dmSans.variable} antialiased`}>
