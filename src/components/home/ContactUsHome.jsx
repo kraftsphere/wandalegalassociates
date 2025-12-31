@@ -63,14 +63,13 @@ const ContactUsHome = () => {
                 </h4>
                 <p className='text-sm text-gray-700 leading-relaxed'>
                   <a
-                    href='https://maps.app.goo.gl/am1U8objJUpg3fEHA'
+                    href='https://maps.app.goo.gl/iYZZuicyeyyurYUH8'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    107 - 109, Pancsheel Building Rizvi Builders, Opp Kurla West
-                    Depot,
-                    <br className='md:hidden' />
-                    LBS Marg Road Kurla West Mumbai 400070
+                    Office No 107 - 109, Panchsheel Building, Rizvi Builders,
+                    Opp Bus Depot, <br className='md:hidden' /> L.B.S. Marg
+                    Road, Kurla West, Mumbai 400070
                   </a>
                 </p>
               </div>

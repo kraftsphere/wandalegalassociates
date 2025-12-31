@@ -92,15 +92,14 @@ const Footer = () => {
                 <MapPin className=' col-span-1 w-5 h-5' />
                 <div className='col-span-10'>
                   <a
-                    href='https://maps.app.goo.gl/am1U8objJUpg3fEHA'
+                    href='https://maps.app.goo.gl/iYZZuicyeyyurYUH8'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     <p className='text-sm leading-relaxed'>
-                      107 - 109, Pancsheel Building Rizvi Builders, Opp Kurla
-                      West Depot,
-                      <br className='md:hidden' />
-                      LBS Marg Road Kurla West Mumbai 400070
+                      Office No 107 - 109, Panchsheel Building, Rizvi Builders,
+                      Opp Bus Depot, <br className='md:hidden' />
+                      L.B.S. Marg Road, Kurla West, Mumbai 400070
                     </p>
                   </a>
                 </div>

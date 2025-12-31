@@ -19,12 +19,12 @@ const Details = () => {
           <span className=''>
             {" "}
             <a
-              href='https://maps.app.goo.gl/am1U8objJUpg3fEHA'
+              href='https://maps.app.goo.gl/iYZZuicyeyyurYUH8'
               target='_blank'
               rel='noopener noreferrer'
             >
-              107 - 109, Pancsheel Building, Rizvi Builders, Opp Kurla West
-              Depot, L.B.S. Marg Road, Kurla West, Mumbai 400070
+              Office No 107 - 109, Panchsheel Building, Rizvi Builders, Opp Bus
+              Depot, Depot, L.B.S. Marg Road, Kurla West, Mumbai 400070
             </a>
           </span>
         </p>
